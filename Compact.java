@@ -6,7 +6,7 @@ public class Compact extends Vehicle{  // a Compact car is a Vehicle
         this.description = "Compact";  // Setting the description of a Compact Vehicle
     }
 
-    public double getCost() {
+    public double getCost() {  // Implements the getCost method from the Vehicle Class
         return 15000;  // Set the price of a Compact Vehicle
     }
     
